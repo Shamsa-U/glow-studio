@@ -1,0 +1,19 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poetsen+One&display=swap');
+
+/* global styles */
+
+body {
+    background-color: #F9E9DC;
+    color: #26190D;
+    font-family: "Poetsen one", sans-serif;
+}
+h2 {
+    font-family: "Akaya Kanadaka", sans-serif;
+    color: #26190D;
+}
+
+p {
+    font-family: "Overlock", sans-serif;
+    color: #26190D;
+}
