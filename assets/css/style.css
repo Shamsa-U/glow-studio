@@ -1,19 +1,171 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poetsen+One&display=swap');
 
+:root {
+
+    --primary-font: "Overlock", sans-serif;
+    --secondary-font: "Akaya Kanadaka", sans-serif;
+    --primary-color: #26190D /* dark brown */;
+    --secondary-color: #f9e9dc /* cream */ ;
+}
 /* global styles */
 
 body {
     background-color: #F9E9DC;
-    color: #26190D;
+    color: var(--primary-color);
     font-family: "Poetsen one", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+
 h2 {
-    font-family: "Akaya Kanadaka", sans-serif;
-    color: #26190D;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
 
 p {
-    font-family: "Overlock", sans-serif;
-    color: #26190D;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
 }
+
+/* header */
+header {
+    background-color: #F9E9DC;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+#menu {
+    font-size: 105%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    color: #26190D;
+    background-color: #F9E9DC;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 950px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+
+    }
+    #menu {
+        font-size: 120%;
+    }
+}
+
+
+/* grid visualisation 
+
+.container, 
+.row {
+    border: 2px solid black;
+}   
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightslategray;
+}
+
+body, html {
+    height: 100%;
+}*/
+
+/* The hero image 
+.hero-image {
+  -Use "linear-gradient" to add a darken background effect to the image (hero.jpg). This will make the text easier to read -
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg) ;
+
+ -Set a specific height -
+  height: 50%;
+
+  -Position and center the image to scale nicely on all screens -
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+-Place text in the middle of the image -
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} */
