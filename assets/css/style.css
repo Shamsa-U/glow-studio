@@ -56,11 +56,14 @@ p {
     color: var(--primary-color);
 }
 
+/* Hero styles */
+
 .hero {
     background-color: var(--primary-color);
     color: white;
     font-family: var(--secondary-font);
-    background-image: url('../images/hero.jpg'); /* Image link here */
+    /* used stackoverflow solution to help me make the hero transparent https://stackoverflow.com/questions/52865630/add-opacity-to-background-image-css-for-hero-cover */
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('../images/hero.jpg'); /* Image link here */
     background-size: cover; /* Cover the entire area */
     background-position: center center; /* Center the image */
     height: 500px;
