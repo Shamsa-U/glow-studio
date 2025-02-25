@@ -114,7 +114,44 @@ p {
 
 /* Booking Styles */
 
-
+.book {
+    border: 8px solid var(--primary-color); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);         
+    padding: 15px;               /* Adjusted padding for content inside the border */
+    margin-top: 40px;            /* Add space above the section */
+    margin-left: auto;           /* Centers the section */
+    margin-right: auto;          /* Centers the section */
+    margin-bottom: 40px;         /* Add space below the section */
+    background-color: var(--secondary-color);   /* Light background color */
+    max-width: 600px;            /* Limit the maximum width of the section */
+  }
+  
+  .book h2 {
+    font-size: 2rem;             
+    color: var(--primary-color);              
+  }
+  
+  .book form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book .form-label {
+    font-weight: bold;
+  }
+  
+  .book .btn-primary {
+    background-color: #481e1e;   
+    border-color: var(--primary-color);
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+  }
+  
+  .book .btn-primary:hover {
+    background-color: #ffaa99;  
+  }
+  
 
 
 /* Footer Styles */
