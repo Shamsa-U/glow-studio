@@ -75,11 +75,13 @@ p {
 
 .hero h1 {
     font-size: 4rem;
+    color: #f8f4f0;
+    
 }
 
 .hero p {
     font-size: 2rem;
-    color: #fcf4ee;
+    color: #f8f4f0;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -111,6 +113,21 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem; 
 }
+
+.service-card .price {
+    font-size: 1rem;
+    color: var(--primary-color); /* Dark brown */
+    font-family: 'var(--secondary-font)'; /* Akaya Kanadaka */
+    font-weight: bold;
+    margin-top: 10px; /* Add some space above the price */
+    padding: 10px;
+    background-color: var(--secondary-color); /* Light background for the price */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Booking Styles */
 
@@ -150,18 +167,39 @@ p {
   
   .book .btn-primary:hover {
     background-color: #ffaa99;  
+    color: var(--primary-color);
   }
+
+  /* Style for the 'Return to Home' button */
+.return-home-btn {
+    background-color: #481e1e; /* Dark brown */
+    border-color: var(--primary-color); /* Same as your primary color */
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: #f8f4f0; /* White text */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+}
+
+.return-home-btn:hover {
+    background-color: #ffaa99;  /* Light orange color on hover */
+    color: var(--primary-color); /* Dark brown text on hover */
+}
+
   
 
 
 /* Footer Styles */
 #footerGlowStudio {
-    background-color: #26190D; /* Dark brown */
+    background-color: var(--primary-color); /* Dark brown */
     color: #f9e9dc; /* Cream */
     position: relative;
     padding: 0.5rem 0;
     width: 100%;
     bottom: 1rem;
+    text-align: center;
 }
 
 body {
@@ -178,13 +216,13 @@ main {
 /* Footer-specific styles */
 #footerGlowStudio h5 {
     font-family: var(--secondary-font);
-    color: #f9e9dc;
+    color: #f8f4f0;
     font-size: 2rem;
 }
 
 #footerGlowStudio p {
     font-family: var(--primary-font);
-    color: #f9e9dc;
+    color: #f8f4f0;
     font-size: 1.2rem;
 }
 

@@ -41,7 +41,7 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services">Our Services</a>
+                        <a class="nav-link" href="#services">Our Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#booking">Book</a>
@@ -62,43 +62,55 @@
     <!-- Main -->
     <main>
         
-      <!-- Our Services Section -->
+    <!-- Our Services Section -->
       <section class="container" id="services">
         <h2 class="text-center">Our Services</h2>
-        <div class="row justify-content-center align-items-stretch"> <!-- Added justify-content-center and align-items-stretch -->
+        <div class="row justify-content-center align-items-stretch">
             <!-- Manicures -->
             <div class="col-md-4 d-flex">
                 <div class="service-card d-flex flex-column justify-content-between">
                     <img src="assets/images/manicure-giorgio-trovato-gb6gtiTZKB8-unsplash.jpg" alt="Example of what your manicure will look like" class="img-fluid">
                     <h3>Manicures</h3>
                     <p>Indulge in luxurious manicures, designed to leave your nails looking flawless and feeling rejuvenated.</p>
+                    <div class="price">
+                        <p>£45</p> <!-- Price added here -->
+                    </div>
                 </div>
             </div>
-            <!-- Nail art -->
+    
+            <!-- Nail Art -->
             <div class="col-md-4 d-flex">
                 <div class="service-card d-flex flex-column justify-content-between">
                     <img src="assets/images/nail-art-chelson-tamares-SyCC0GQi5S4-unsplash.jpg" alt="Example of Nail art designs" class="img-fluid">
                     <h3>Nail Art</h3>
                     <p>From simple designs to intricate artwork, let your nails express your personality with our nail art services.</p>
+                    <div class="price">
+                        <p>£3 per nail</p> <!-- Price added here -->
+                    </div>
                 </div>
             </div>
+    
             <!-- Pedicures -->
             <div class="col-md-4 d-flex">
                 <div class="service-card d-flex flex-column justify-content-between">
                     <img src="assets/images/pedicure-rune-enstad-W0_shKarGCk-unsplash.jpg" alt="Example of what your pedicure will look like" class="img-fluid">
                     <h3>Pedicures</h3>
                     <p>Come and relax with our ultimate soothing pedicures, ensuring your feet feel as smooth and amazing as they look.</p>
+                    <div class="price">
+                        <p>£50</p> <!-- Price added here -->
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
 
    
     <!-- Booking Section -->
     <section class="book" id="booking">
         <div class="container">
             <h2 class="text-center mb-4">Request Your Appointment</h2>
-    <form>
+    <form action="success.html" method="get">
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -109,7 +121,7 @@
             <select id="inputState" class="form-select">
               <option selected>Choose...</option>
               <option>Manicure</option>
-              <option>Perdicure</option>
+              <option>Pedicure</option>
             </select>
         </div>
 
