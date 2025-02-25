@@ -90,7 +90,8 @@ p {
     font-family: 'Poetsen One', sans-serif; 
     font-size: 2rem; 
     text-align: center;
-    color: var(--primary-color); 
+    color: var(--primary-color);
+    padding-top: 10px; 
 }
 
 .service-card h3 {
@@ -106,10 +107,14 @@ p {
     height: 100%;
     text-align: center; /* Center align the text in each card */
     background-color: #ffaa99; 
-    border: 1px solid #f9e9dc; 
+    border: 8px solid var(--secondary-color); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem; 
 }
+
+/* Booking Styles */
+
+
 
 
 /* Footer Styles */
@@ -192,6 +197,16 @@ main {
      .service-card img {
         object-position: center; /* Keeps the image centered for mobile view */
     }
+
+    .service-card {
+        margin-bottom: 1.5rem; /* Adds space between cards on smaller screens */
+    }
+
+    .col-md-4 {
+        margin-bottom: 1.5rem; /* Add spacing between columns in a vertical layout */
+    }
+
+
 
 }
 
