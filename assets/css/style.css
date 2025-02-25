@@ -63,7 +63,7 @@ p {
     color: #fcf4ee;
     font-family: var(--secondary-font);
     /* Used stackoverflow solution to help me make the hero transparent https://stackoverflow.com/questions/52865630/add-opacity-to-background-image-css-for-hero-cover */
-    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('../images/hero.jpg');
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('../images/hero-manicure-870857_1280.jpg');
     background-size: cover; /* Covers the entire area */
     background-position: center center; /* Centers the image */
     height: 500px;
@@ -127,71 +127,87 @@ p {
     justify-content: center;
 }
 
+/* Custom styling for See More button */
+.see-more-btn {
+    padding: 15px 35px;  
+    font-size: 1.2rem;  
+    background-color: #481e1e; 
+    color: #f9e9dc;        
+    border: none;            
+    transition: background-color 0.3s ease; 
+    text-align: center;    
+    display: inline-block; 
+    cursor: pointer;
+}
+  
+  
+.see-more-btn:hover {
+    background-color: #ffaa99;  
+    color: var(--primary-color); 
+}
+  
 
-/* Booking Styles */
+.see-more-btn-container {
+    text-align: center;   
+    margin-top: 30px;      
+}
+  
 
+/* Booking styles */
+.page-bg {
+    background-image: url('../images/hero-manicure-870857_1280.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the booking form container */
 .book {
     border: 8px solid var(--primary-color); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);         
-    padding: 15px;               
+    padding: 30px;               
     margin-top: 40px;            
     margin-left: auto;           
     margin-right: auto;          
     margin-bottom: 40px;         
     background-color: var(--secondary-color);   
     max-width: 600px;            
-  }
-  
-  .book h2 {
+    opacity: 0.9; 
+}
+
+.book h2 {
     font-size: 2rem;             
     color: var(--primary-color);  
     font-family: "Poetsen One", sans-serif;            
-  }
-  
-  .book form {
+}
+
+.book form {
     display: flex;
     flex-direction: column;
-  }
-  
-  .book .form-label {
+}
+
+.book .form-label {
     font-weight: bold;
-  }
-  
-  .book .btn-primary {
+    color: var(--primary-color);
+}
+
+.book .btn-primary {
     background-color: #481e1e;   
     border-color: var(--primary-color);
     padding: 10px 20px;
     font-size: 1.1rem;
     border-radius: 5px;
-  }
-  
-  .book .btn-primary:hover {
+}
+
+.book .btn-primary:hover {
     background-color: #ffaa99;  
     color: var(--primary-color);
     border-color: var(--primary-color);
-
-  }
-
-  /* Style for the 'Return to Home' button */
-.return-home-btn {
-    background-color: #481e1e; 
-    border-color: var(--primary-color); 
-    padding: 10px 20px;
-    font-size: 1.1rem;
-    border-radius: 5px;
-    color: #f8f4f0; 
-    text-align: center;
-    text-decoration: none; 
-    display: inline-block;
 }
-
-.return-home-btn:hover {
-    background-color: #ffaa99;  
-    color: var(--primary-color); 
-    border-color: var(--primary-color);
-}
-
-  
 
 
 /* Footer Styles */
@@ -265,7 +281,7 @@ main {
     }
     
     .hero p {
-        font-size: 1rem;
+        font-size: 1.5rem; 
     }
 
     #footerGlowStudio .row {
@@ -283,10 +299,12 @@ main {
     .col-md-4 {
         margin-bottom: 1.5rem; 
     }
-
-
-
+    .book {
+        padding: 20px;
+        margin: 40px;
+    }
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 950px) {
