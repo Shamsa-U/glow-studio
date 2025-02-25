@@ -105,9 +105,9 @@ p {
 .service-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribute space between the image, h3, and p */
+    justify-content: space-between; 
     height: 100%;
-    text-align: center; /* Center align the text in each card */
+    text-align: center; 
     background-color: #ffaa99; 
     border: 8px solid var(--secondary-color); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -116,14 +116,13 @@ p {
 
 .service-card .price {
     font-size: 1rem;
-    color: var(--primary-color); /* Dark brown */
-    font-family: 'var(--secondary-font)'; /* Akaya Kanadaka */
+    color: var(--primary-color); 
+    font-family: 'var(--secondary-font)'; 
     font-weight: bold;
-    margin-top: 10px; /* Add some space above the price */
+    margin-top: 10px; 
     padding: 10px;
-    background-color: var(--secondary-color); /* Light background for the price */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    background-color: var(--secondary-color); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     display: flex;
     justify-content: center;
 }
@@ -134,18 +133,19 @@ p {
 .book {
     border: 8px solid var(--primary-color); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);         
-    padding: 15px;               /* Adjusted padding for content inside the border */
-    margin-top: 40px;            /* Add space above the section */
-    margin-left: auto;           /* Centers the section */
-    margin-right: auto;          /* Centers the section */
-    margin-bottom: 40px;         /* Add space below the section */
-    background-color: var(--secondary-color);   /* Light background color */
-    max-width: 600px;            /* Limit the maximum width of the section */
+    padding: 15px;               
+    margin-top: 40px;            
+    margin-left: auto;           
+    margin-right: auto;          
+    margin-bottom: 40px;         
+    background-color: var(--secondary-color);   
+    max-width: 600px;            
   }
   
   .book h2 {
     font-size: 2rem;             
-    color: var(--primary-color);              
+    color: var(--primary-color);  
+    font-family: "Poetsen One", sans-serif;            
   }
   
   .book form {
@@ -168,24 +168,27 @@ p {
   .book .btn-primary:hover {
     background-color: #ffaa99;  
     color: var(--primary-color);
+    border-color: var(--primary-color);
+
   }
 
   /* Style for the 'Return to Home' button */
 .return-home-btn {
-    background-color: #481e1e; /* Dark brown */
-    border-color: var(--primary-color); /* Same as your primary color */
+    background-color: #481e1e; 
+    border-color: var(--primary-color); 
     padding: 10px 20px;
     font-size: 1.1rem;
     border-radius: 5px;
-    color: #f8f4f0; /* White text */
+    color: #f8f4f0; 
     text-align: center;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     display: inline-block;
 }
 
 .return-home-btn:hover {
-    background-color: #ffaa99;  /* Light orange color on hover */
-    color: var(--primary-color); /* Dark brown text on hover */
+    background-color: #ffaa99;  
+    color: var(--primary-color); 
+    border-color: var(--primary-color);
 }
 
   
@@ -193,8 +196,8 @@ p {
 
 /* Footer Styles */
 #footerGlowStudio {
-    background-color: var(--primary-color); /* Dark brown */
-    color: #f9e9dc; /* Cream */
+    background-color: var(--primary-color); 
+    color: #f9e9dc; 
     position: relative;
     padding: 0.5rem 0;
     width: 100%;
@@ -270,15 +273,15 @@ main {
     }
 
      .service-card img {
-        object-position: center; /* Keeps the image centered for mobile view */
+        object-position: center; 
     }
 
     .service-card {
-        margin-bottom: 1.5rem; /* Adds space between cards on smaller screens */
+        margin-bottom: 1.5rem; 
     }
 
     .col-md-4 {
-        margin-bottom: 1.5rem; /* Add spacing between columns in a vertical layout */
+        margin-bottom: 1.5rem; 
     }
 
 
