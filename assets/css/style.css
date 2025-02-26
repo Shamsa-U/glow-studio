@@ -175,11 +175,63 @@ section {
     text-align: center;
 }
   
-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+
+/* Add border and padding to the Manicures and Pedicures sections */
+#manicures, #pedicures {
+  border: 2px solid var(--primary-color); /* Light gray border */
+  border-radius: 10px; /* Slightly rounded corners */
+  padding: 20px; /* Add some padding inside the border */
+  margin-bottom: 30px; /* Space between the sections */
+  background-color: #481e1e; /* Light background color */
 }
-  
+
+/* Add a shadow effect for a 3D effect */
+#manicures, #pedicures {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling the section titles */
+#manicures h3, #pedicures h3 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  color: #ffaa99; /* Dark text color for contrast */
+  margin-bottom: 20px; /* Space below the section title */
+}
+
+/* Manicure and Pedicure Images styling */
+#manicures .col-md-3, #pedicures .col-md-4 {
+  border: 1px solid var(--primary-color); /* Border around each image */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 15px; /* Space between images */
+  background-color: #ffaa99; /* White background for image containers */
+  overflow: hidden; /* Ensure images don't spill outside */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover effect on images in the gallery */
+#manicures .col-md-3:hover, #pedicures .col-md-4:hover {
+  transform: scale(1.05); /* Slight zoom-in effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Add subtle shadow on hover */
+}
+
+/* Make sure images are responsive and fit the container */
+#manicures img, #pedicures img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ensure the price text is centered below images */
+#manicures .text-center, #pedicures .text-center {
+  font-size: 1rem;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  color:  var(--primary-color);
+  margin-top: 10px;
+}
+
 
 /* Booking styles */
 .page-bg {
