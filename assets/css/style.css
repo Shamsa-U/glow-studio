@@ -151,6 +151,34 @@ p {
     text-align: center;   
     margin-top: 30px;      
 }
+
+/* Gallery styles */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+  
+.carousel-caption p {
+    font-size: 1.1em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+section {
+    margin-bottom: 3rem;
+}
+  
+.text-center {
+    text-align: center;
+}
+  
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
   
 
 /* Booking styles */
