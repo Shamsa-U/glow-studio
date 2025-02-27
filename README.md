@@ -1,6 +1,6 @@
 # Glow Studio Website - Shamsa Uwase
 
-![Am I responsive]('/readme-images/am-i-respinsive.png "Am I responsive check") 
+![Am I responsive]('/readme-images/am-i-responsive.png "Am I responsive check") 
 
 Glow Studio is a modern nail salon dedicated to providing high-quality nail care and artistry. Our website is aimed to appeal to both new and returning clients, showcasing our services, latest designs, and special offers. It also provides an easy and seamless booking experience. The site is fully responsive, ensuring a smooth and visually appealing experience on any device.
 
