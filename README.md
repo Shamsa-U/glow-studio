@@ -341,12 +341,15 @@ I used the Lighthouse reports in Google DevTools to examine the desktop pages of
 * SEO  
 
 index.html
+
 ![Lighthouse report for index.html](/readme-images/index-lighthouse.png "Lighthouse report for index.html")
 
 gallery.html
+
 ![Lighthouse report for gallery.html](/readme-images/gallery-lighthouse.png "Lighthouse report for gallery.html")
 
 booking.html
+
 ![Lighthouse report for booking.html](/readme-images/booking-lighthouse.png "Lighthouse report for booking.html")
 
 ### Lighthouse - mobile
@@ -358,12 +361,15 @@ I used the Lighthouse reports in Google DevTools to examine the mobile pages of 
 * SEO
 
 index.html
+
 ![Lighthouse report for index.html](/readme-images/index-mobile-lighthouse.png "Lighthouse report for index.html")
 
 gallery.html
+
 ![Lighthouse report for gallery.html](/readme-images/gallery-mobile-lighthouse.png "Lighthouse report for gallery.html")
 
 booking.html
+
 ![Lighthouse report for booking.html](/readme-images/booking-mobile-lighthouse.png "Lighthouse report for booking.html")
 
 #### Further Testing
