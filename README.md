@@ -397,7 +397,7 @@ ___
 
 * During my mentor meeting, we realised the images were loading slowly, so I attempted to fix this by reducing the image size and compressing the images using tinypng.com. 
 
-* TBC
+* Largest contentful paint element was making my perfomance report score low on mobile. I changed the size of the h2 element.
 
 ___
 <a name="deployment"></a>

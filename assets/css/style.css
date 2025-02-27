@@ -262,7 +262,7 @@ section {
 }
 
 .book h2 {
-    font-size: 2rem;             
+    font-size: 1.5rem;             
     color: var(--primary-color);  
     font-family: "Poetsen One", sans-serif;            
 }
