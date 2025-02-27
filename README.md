@@ -73,9 +73,9 @@ ___
 
 ### 1.2 External Users’ Goals:
 
-The site users are potential clients and returning customers who are interested in beauty, skincare, or wellness treatments offered at Glow Studio. 
+The site users are potential clients and returning customers who are interested in nail care treatments offered at Glow Studio. 
 
-- External users may want to explore the services provided, such as mannicures, pedicures and nail art options.
+- External users may want to explore the services provided, such as manicures, pedicures and nail art options.
 - External users may want to view previous designs to see if they are interested in the designs offered.
 - External users may want to know the studio’s location, opening hours, and pricing. 
 - External users may want to easily request to book an appointment online or contact the studio via the contact information provided. 
