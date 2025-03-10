@@ -6,9 +6,19 @@ Glow Studio is a modern nail salon dedicated to providing high-quality nail care
 
 The website features 3 pages and has been built using HTML, CSS and Bootstrap.
 
+### Purpose  
+Glow Studio's website is designed to provide a seamless and engaging experience for clients. It allows users to explore nail services, view pricing, book appointments easily, and stay updated on the latest trends and promotions.  
+
+## Value  
+- **Convenience:** Users can book appointments anytime, from any device.  
+- **Inspiration:** A gallery showcasing nail designs and trends helps clients choose their perfect style.  
+- **Trust & Transparency:** Clear service details, pricing.
+- **Exclusive Offers:** if my website was deployed as a real studio website then i can introduce special promotions and loyalty rewards to keep clients engaged and returning.  
+
+This website enhances the overall customer experience by making beauty services more accessible, stylish, and hassle-free
+
 ### Live Project 
 [View Glow Studio project here.](https://shamsa-u.github.io/glow-studio/index.html "View Glow Studio's Live Website")
-
 ___
 
 # Table of Contents:
