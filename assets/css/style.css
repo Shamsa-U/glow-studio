@@ -134,7 +134,6 @@ p {
     background-color: #481e1e; 
     color: #f9e9dc;        
     border: none;            
-    transition: background-color 0.3s ease; 
     text-align: center;    
     display: inline-block; 
     cursor: pointer;
