@@ -6,9 +6,19 @@ Glow Studio is a modern nail salon dedicated to providing high-quality nail care
 
 The website features 3 pages and has been built using HTML, CSS and Bootstrap.
 
+### Purpose  
+Glow Studio's website is designed to provide a seamless and engaging experience for clients. It allows users to explore nail services, view pricing, book appointments easily, and stay updated on the latest trends and promotions.  
+
+## Value  
+- **Convenience:** Users can book appointments anytime, from any device.  
+- **Inspiration:** A gallery showcasing nail designs and trends helps clients choose their perfect style.  
+- **Trust & Transparency:** Clear service details, pricing.
+- **Exclusive Offers:** if my website was deployed as a real studio website then i can introduce special promotions and loyalty rewards to keep clients engaged and returning.  
+
+This website enhances the overall customer experience by making beauty services more accessible, stylish, and hassle-free
+
 ### Live Project 
 [View Glow Studio project here.](https://shamsa-u.github.io/glow-studio/index.html "View Glow Studio's Live Website")
-
 ___
 
 # Table of Contents:
@@ -69,6 +79,13 @@ ___
 
 ## 1.1 User Stories
 
+- _New Client_ – First-Time Booking As a first-time visitor, I want to easily browse services and pricing, So that I can confidently book an appointment that suits my needs.
+- _Returning Client_ – Quick Rebooking As a returning customer, I want to quickly rebook my favorite nail service, So that I can maintain my nails without hassle
+- _Special Occasion_ Client – Booking for an Event As a client preparing for a wedding, birthday, or party, I want to explore package deals and nail art options, So that I can get the perfect look for my event
+- _Walk-In Customer_ – Checking Availability As a customer near the salon, I want to check walk-in availability or contact the salon, So that I can decide whether to visit now or book for later.
+- _Social Media Follower_ – Seeking Inspiration As a beauty enthusiast scrolling through Instagram, I want to see high-quality nail art and trends, So that I can get inspired and book a similar style.
+- _Deal Seeker_ – Looking for Promotions As a budget-conscious client, I want to find special offers or loyalty rewards, So that I can save money while getting my nails done.
+  
 <a name="external-users"></a>
 
 ### 1.2 External Users’ Goals:
@@ -115,7 +132,7 @@ ___
 
 A simple colour scheme has been used. The dark brown colours bring out the muted pink tones throughout the website.
 
-I used ![Coolors](https://coolors.co/) to decide on the colour scheme.
+I used [Coolors](https://coolors.co/) to decide on the colour scheme.
 The font colour and background colour for the header and body were checked for contrast on [Deque Contrast Checker](https://color-contrast-checker.deque.com/) and scored ’12.81 - Super' showing the contrast makes the accessibility good. The contrast was checked for the footer and was scored 12.81 - Super’.
 
 ## 2.2 Typography
@@ -382,7 +399,11 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 1
 
 ## 6.6 Peer Review  
 The project was shared to Slack for peer review and the following changes were made: 
-* TBC
+
+**Navigation to Our Services Page:** Currently, the Our Services page is only accessible from the homepage. I was asked to consider adding navigation to this page from other sections of the website.
+**Footer Gap:** The footer leaves a gap at the bottom of all pages. It was suggested that i try using 'bottom: 0;' to resolve this issue.
+**Map on Small Screens:** On smaller screen sizes (320px), the map is too small. It was suggested that i could consider setting 'display: none' on the map’s outer box and just use a border to make it more visible.
+**Form Submission Redirection:** When submitting the form, it redirects to the Code Institute page. It was recommended that the page redirectx the user to a page acknowledging the form submission, with a link back to the homepage.
 
 <a name="contrast"></a>
 
@@ -437,28 +458,28 @@ ___
 
 * The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
 
-* Help to adjust the height of my rows https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-horizontal-alignment 
+* Help to adjust the height of my rows https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-horizontal-alignment
 
-* TBC
+* I used code templates from Bootstrap and code from w3schools.com throughout my webpage.
+
 
 <a name="image-credit"></a>
 
 ## 9.2 Images
 
-Most images were sourced from the open source website, pexels.com.
+Most images were sourced from the open source website, pixaby.com.
 These include:
 
-* TBC
+- The images in the carousel were from the account **Mounthive** on Pixaby. 
+- The hero image and some of the pedicure images were from **Bru-nO** on Pixaby.
 
-Other images were sourced from:
-
-* TBC
+All other images were chosen at random from Pixaby.com or Pexels.com
 
 <a name="content"></a>
 
 ## 9.3 Content
 
-* All content was written by myself.
+* All content was written by myself however i was inspired by code from [w5schools](https://www.w3schools.com/) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) as well as [Stack Overflow](https://stackoverflow.com/questions)
 
 <a name="acknowledge"></a>
 
@@ -466,4 +487,5 @@ Other images were sourced from:
 
 * Thank you to my mentor, Marcel, for continuous helpful feedback.
 * Thank you to my friends and colleagues for participating in testing and review.
-* Thank you to the tutors and staff at Code Institute for their support. 
+* Thank you to the tutors and staff at Code Institute for their support.
+* A big thank you to the Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project
